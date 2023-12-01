@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather API</title>
+  <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
-  <input name="" id="city-name">
-  <button id="enter">Search</button>
-  
-  
+  <div id="app-cont">
+    <div id="side-bar">
+      <h2>Search Some Cities!</h2>
+      <input name="" id="city-name">
+      <button id="enter">Search</button>
+    </div>
+    <div id="weather">
+      <div id="current-weather">
+        <div id="current-card">
+          <h2 id="city"></h2>
+          <p id="temp"></p>
+          <p id="wind"></p>
+          <p id="humidity"></p>
+
+        </div>
+      </div>
+      <div id="forcast"></div>
+    </div>
+
+  </div>
 
 
-<script src = "./js/script.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
+
 </html>

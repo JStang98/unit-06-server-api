@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+
+}
+
+
+
+
+#app-cont {
+  height: 100vh;
+  display: flex;
+
+
+}
+
+#side-bar {
+  background-color: blanchedalmond;
+  padding: 15px;
+  width: 20%;
+}
+
+#weather{
+  width: 80%;
+  height: 100vh;
+  padding: 20px;
+}
+
+#current-weather{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#current-card{
+  padding: 15px;
+  border: 1px solid grey;
+  width: 80%;
+  height: 250;
+}
+
+#forcast{
+  display: flex;
+  padding: 20px;
+}
